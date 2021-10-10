@@ -1,5 +1,7 @@
 # Extra-Credit-Mini-Project-1
 
+You can see the code walkthough and demo video in this [link](https://youtu.be/CJ9uRZVPI4o)
+
 **Reference**:  [Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating Containers](https://www.freecodecamp.org/news/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882/)
 
 **This is really a wonderful article, really helps a lot in helping me to have a deeper understanding on Docker and Kubernetes.**
