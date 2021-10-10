@@ -2,7 +2,7 @@
 
 **Reference**:  [Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating Containers](https://www.freecodecamp.org/news/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882/)
 
-**This is really an wonderful article, really helps a lot in helping me to have a deeper understanding on Docker and Kubernetes.**
+**This is really a wonderful article, really helps a lot in helping me to have a deeper understanding on Docker and Kubernetes.**
 
 ## Steps to get application work
 
@@ -116,7 +116,7 @@ It's almost the same, but only replace the docker image name.
 
 **Now, you can see all three images are in my container registry of GCP.**
 
-![screenshot1]()
+![screenshot1](https://github.com/andrewyuanyuan/Extra-Credit-Mini-Project-1/blob/main/Screenshots/screenshot1.png?raw=true)
 
 ### 4. Get the application work on Google Kubernetes Engine
 
@@ -124,7 +124,7 @@ To deploy our application on Google Kubernetes Engine,
 
 **First, I created my kubernetes cluster**, the command I used is the same as the script mention in class. By doing this, I now have this kubernetes cluster which is shown as below:
 
-![screenshot2]()
+![screenshot2](https://github.com/andrewyuanyuan/Extra-Credit-Mini-Project-1/blob/main/Screenshots/screenshot2.png?raw=true)
 
 After creating my clusters, I think we finally face **the most tricky part** of this project. **In the following step, all the files for deployment and creating service is under `/Sentiment-Analysis/resource-manifests` folder.**
 
@@ -151,7 +151,7 @@ For this application, **we must strictly follow a specific deploying order**, wh
 
    After that, we now finally have the endpoints address for our application backend, in my case, this address is `34.67.118.55:80`, we now need to go back to our frontend code and change the scripts below to provide a valid request address for our frontend
 
-   ![screenshot3]()
+   ![screenshot3](https://github.com/andrewyuanyuan/Extra-Credit-Mini-Project-1/blob/main/Screenshots/screenshot3.png?raw=true)
 
  3. Now we need to rebuild our frontend and update our docker image and do the `pull, tag, push`  things again in GCP before we deploy and create service. After that we can finally use these command to deploy the frontend of our application.
 
@@ -164,13 +164,13 @@ For this application, **we must strictly follow a specific deploying order**, wh
 
 After all the steps above, Now we have three services in my Kubernetes Engine of GCP, which is shown in the picture below
 
-![screenshot4]()
+![screenshot4](https://github.com/andrewyuanyuan/Extra-Credit-Mini-Project-1/blob/main/Screenshots/screenshot4.png?raw=true)
 
 The application also successfully running on the external IP through my Kubernetes Service, you can see the IP address is the same as what shown in services.
 
-![screenshot5]()
+![screenshot5](https://github.com/andrewyuanyuan/Extra-Credit-Mini-Project-1/blob/main/Screenshots/screenshot5.png?raw=true)
 
-![screenshot6]()
+![screenshot6](https://github.com/andrewyuanyuan/Extra-Credit-Mini-Project-1/blob/main/Screenshots/screenshot6.png?raw=true)
 
 ## Screenshots
 
